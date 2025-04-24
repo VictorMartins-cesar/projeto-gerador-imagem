@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:hover {
+    border-color: #007bff;
+}
+
+input:focus {
+    border-color: #003d80;
+    box-shadow: 0 0 5px #003d80;
+}
+
+.botao-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #93e70c;
+    color: rgb(20, 20, 20);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao-login:hover {
+    background-color: #0056b3;
+}
+
+.botao-login:active {
+    background-color: #003d80;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(23, 151, 119, 0.199);
+  }
+  th, td {
+    padding: 12px 20px;
+    border: 1px solid #adabab;
+    text-align: left;
+  }
+  th {
+    background-color: #08233f;
+    color: rgb(233, 166, 166);
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.imagemprojeto {
+     width: 50px;
+      height: 50px;
+    
+    
+      
+}
+
+
+.header {
+    background-color: #121212;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-content h2 {
+    font-size: 1rem;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 0.875rem;
+    color: #777;
+}
+
+
+
+.footer {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+.footer-contato {
+    background-color: #121212;
+    color: ghostwhite;
+    padding: 20px;
+    margin-top: auto;
+}
